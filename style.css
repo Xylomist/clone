@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Opens",sans-serif;
+}
+header{
+    width: 100vw;
+    height: 5rem;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  
+}
+.first img{
+    width: 130px;
+    height: 80px;
+    background-color: #0F1111;
+    color:#0F1111
+    
+}
+.first{
+    margin-left: 60px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+    margin-bottom: 5px;
+}
+.top{
+    margin-bottom: 3px;
+    font-size: 0.75rem;
+    color: #ccc;
+}
+.thrid form{
+    height:40px;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+ border-radius: 20%;
+    
+    
+}
+.thrid form input{
+    height:100%;
+    width:90%;
+    font-size: medium;
+    padding: 5px;
+    border:none;
+}
+.thrid form select{
+    width: 50px;
+    background-color: #f3f3f3;
+    border: none;
+   
+}
+.thrid button{
+    background-color: #FEBD68;
+    border:none;
+    width: 50px;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+header .secondheader{
+    color: white;
+    text-decoration: none;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300; 
+}
+.six{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right:50px;
+
+}
+.six p{
+    display: flex
+
+}
+.six span{
+    font-size:xx-large
+}
+.secondheader{
+    display: flex;
+    flex-direction: row;
+    height: 2.5rem;
+    width: 100vw;
+    background-color: #222F3D;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondheader .logo{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    gap: 10px;
+}
+ .links ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 700px;
+   gap: 15px;
+}
+.deals{
+    margin-right: 50px;
+}
+.bgimg{
+    background-image: url(https://flipshope.com/blog/wp-content/uploads/2023/07/Amazon-Prime-Day-sale-Featured.jpg);
+    height: 500px;
+ background-position:center;
+    background-size:cover;
+}
+.newdivs{
+    background-color: #F3F3F3;
+    display: flex;
+    height: 550px;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.newdivs .box1{
+display: flex;
+flex-direction: column;
+height: 430px;
+width: 303px;
+padding: 30px;
+background-color: white;
+transition: transform 0.7s ease-in-out;
+
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+.box1 img{
+    height: 276px;
+    width: 244px;
+    object-fit: cover;
+    align-items: center;
+}
+.box1 h3{
+    margin-bottom: 20px;
+    align-items: center;
+    font-weight: 600;
+}
+.box1 a{
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+.box1 a:hover{
+    color: orange;
+    transition: color 0.3s ease;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.secondheader a{
+    color: white;
+    text-decoration: none;
+}
+.strip{
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 58px;
+    width: 100vw;
+    align-items: center;
+}
+.bck a{
+    color: white;
+    text-decoration: none;
+}
+.footer{
+    background-color: #232F3E;
+    height: 290px;
+    width:100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer a{
+    color: #DDDDDD;
+    text-decoration: none;
+}
+.one li{
+ list-style-type: none;
+ color: #DDDDDD;
+ font-weight: 100;
+ margin-top: 6px;
+}
+.one{
+    color: #DDDDDD;
+    padding: 10px;
+    height: 248px;
+    width: 240px;
+}
+.one ul{
+    margin-top: 20px;
+}
+.one h4{
+    color: white;
+    font-weight: 500;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
