@@ -1,0 +1,5 @@
+in the header section:- i used flex to align items in row  and gave width to 100vw,changed background color and aligned the amazon image with height and width and used font size property also to decerse the size of above text (i used form tag as wll and amke changes serarch input box and select tag also )
+in the secondheader section:- i used flex to align items in row and took icons from google fonts and used margin right to align list items similarly like the above used 100vw
+in thrid section :- i used background image and used  background size and background position property  and set the height of the image 
+in the fouth section :- this section contains cards i used flex property to align them and used flex wrap as well used padding and flex diredtion column to allign the elements inside the card used trasition property smooth animations 
+in footer:- in this section i created baack to top bu using a tag inside the that i use # to be beck to top  and last i used one box and aligned all other to align the other items 
